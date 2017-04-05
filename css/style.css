@@ -1,0 +1,519 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	float: left;
+	background-color: white;
+	border-bottom: solid 1px #9c3;
+
+}
+
+.wrapper{
+	margin: 0px 20% 0px 20%;
+}
+
+.logo{
+	width: 250px;
+	height: 30px;
+	margin: 15px 30px 10px 0;
+	float: left;
+}
+
+header ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	float: left;
+}
+
+header ul li{
+	display:inline-block;
+}
+
+.top_nav{
+	float: right;
+	padding:15px 20px;
+	text-align: left;
+}
+
+.top_nav li{
+	padding:5px 20px;
+	margin-top: 5px;
+}
+
+.top_nav li a {
+	color: #333;
+}
+
+.top_nav li a:hover{
+	text-decoration: underline;
+	color: #004b6e;
+}
+
+header ul li:hover ul{
+	display: block;
+}
+
+header ul ul{
+	display: none;
+	position: absolute;
+	background-color: white;
+	padding:10px 5px;
+	float: left;
+}
+
+header ul ul li{
+	display: block;
+	text-align: left;
+}
+
+header .nav_social{
+	position: absolute;
+	left:85%;
+	padding-top: 20px;
+}
+
+.nav_social li{
+	display: inline-block;
+}
+
+.nav_social li img{
+	width: 20px;
+	height: 20px;
+	padding: 0 15px;
+}
+
+
+/****************** Slider Content Starts Here ****************/
+
+.slider_section{
+	background-image: url("../images/geospatial-slide.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+.geo_slide{
+	width: 100%;
+	height: auto;
+}
+
+
+.captions{
+	color: white;
+	padding-top: 35vh;
+}
+
+.captions h1{
+	font-size: 3em;
+	font-weight: 500;
+	color: white;
+}
+
+.captions p{
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+}
+
+.learn_more_btn{
+	font-size: 1.2em;
+	padding:10px 20px;
+	background-color: #9c3;
+	border:none;
+	border-radius: none;
+	color: white;
+	font-weight: 200;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.learn_more_btn:hover{
+	background-color: transparent;
+	padding: 15px 25px;
+	border: solid 2px #9c3;
+}
+
+/****************** Intro Section Content Starts Here ****************/
+
+.intro_section{
+	height: 380px;
+	background-color: #f4f7fa;
+	padding-top:50px;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+	color: #004b6e;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #004b6e;
+}
+
+h3{
+	font-size: 1em;
+	font-weight: 300;
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #333;
+	line-height: 180%;	
+}
+
+.header_underline{
+	width: 10%;
+	height: 1px;
+	background-color:#9c3;
+	margin: 20px 45% 0 45%;
+
+}
+
+.intro_section h2{
+	width: 25%;
+	height: 100px;
+	padding-top:30px;
+	margin: 0;
+	float:left;
+}
+
+.intro_section p{
+	width: 50%;
+	height: 100px;
+	padding-top:10px;
+	text-align: left;
+	margin: 0;
+	float: right;
+}
+
+/****************** WHAT Section Content Starts Here ****************/
+
+.what_section{
+	padding-top: 100px;
+}
+
+/****************** AAS Section Content Starts Here ****************/
+
+.iaas_box{
+	background-image: url("../images/iaas.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height:840px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.paas_box{
+	background-image: url("../images/paas.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height:420px;
+	float: left;
+}
+
+.aaas_box{
+	background-image: url("../images/daas.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height:420px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+
+/****************** HOW Section Content Starts Here ****************/
+
+.visioneering{
+	width: 50%;
+	height:428px;
+	background-color: #9c3;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.visioneering_icon{
+	display: block;
+	width: 180px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.hcd{
+	width: 50%;
+	height:214px;
+	background-color: #198a94;
+	float: left;
+	text-align: center
+}
+
+.hcd_icon{
+	width: 140px;
+	display: block;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.lean-startup{
+	width: 25%;
+	height:214px;
+	background-color: #00aeef;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.lean-startup-icon{
+	width: 130px;
+	height: 130px;
+	display: block;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.safe_agile{
+	width: 25%;
+	height:214px;
+	background-color: #004b6e;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.safe_agile_icon{
+	width: 130px;
+	height: 130px;	
+	display: block;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.ie_block a{
+	font-size: 1.7em;
+	font-weight: 200;
+	color: white;
+}
+
+.ie_block a:hover{
+	text-decoration: underline;
+}
+
+.how_section{
+
+	padding-top: 50px;
+}
+/****************** WHY Section Content Starts Here ****************/
+
+.solutions{
+	width: 28%;
+	height:420px;
+	float: left;
+	border: solid 1px #ddd;
+	padding: 1.7%;
+	text-align: center;
+}
+
+.solutions img{
+	width: 100px;
+}
+
+.solutions h4{
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #004b6e;
+}
+.solutions_row1{
+	float:left;
+	margin-bottom: 40px;
+}
+
+.center_solutions{
+	margin: 0 2.6%;
+}
+
+.solutions_row2{
+	float: left;
+	margin-bottom: 50px;
+}
+/****************** WHY Section Content Starts Here ****************/
+
+.us_map{
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+
+/****************** WHY Section Content Starts Here ****************/
+
+footer{
+	width: 100%;
+	background-color: #555;
+	border-top: solid 3px #9c3;
+	font-weight: 200;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+}
+
+h5{
+	text-align: center;
+	font-weight: 200;
+	font-size: 1.7em;
+}
+
+h6{
+	font-weight: 400;
+	font-size: 1em;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #9c3;
+	width: 90px;
+}
+
+.top_footer{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+
+.top_footer p {
+	text-align: left;
+	color: white;
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.top_footer a {
+	color: white;
+	font-size: .85em;
+	font-weight: 200;
+}
+
+.email_block{
+	width: 50%;
+	float: left;
+}
+
+.chat_block{
+	width: 15%;
+	float: left;
+	margin: 0 6% 0 14%;
+}
+
+.foot_social_block{
+	width: 15%;
+	float: left;
+}
+
+.foot_social_block ul li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.foot_social_block img{
+	width: 20px;
+	padding-right:10px;	
+}
+
+.lower_footer{
+	width: 100%;
+	padding: 30px 0;
+	background-color: #464646;
+	margin: 0;
+	color: white;
+	float: left;
+	font-size: 1em;
+	font-weight: 200;
+	color:#999;
+}
+
+/*FOOTHER EMAIL STYLING*/
+
+.email_block{
+	margin-bottom: 50px;
+}
+
+
+.input{
+	height: 26px;
+	background: #636363;
+	border: solid 1px #707070;
+	font-weight: 300;
+	color: white;
+	border-radius: 3px;
+	width: 46%;
+	padding: 5px;
+}
+
+
+input[type=text]{
+	color: white;
+	font-size: 1em;
+	font-weight:200;
+}
+
+#name{
+	margin-right: 3%
+}
+
+textarea{
+	min-width: 98%;
+	min-height: 100px;
+	padding: 5px;
+	font-size: 1em;
+	font-weight: 200;
+	color: white;
+
+}
+
+
+.placeholder{
+	font-size: 1em;
+	font-weight: 200;
+}
+
+
+#submit_button{
+	background: #636363;
+	border: solid 1px #707070;
+	font-size: .85em;
+	font-weight: 300;
+	color: #9c3;
+	border-radius: 3px;
+	width: 20%;
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+	-webkit-transition-duration: .5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+#submit_button:hover{
+	background: #9c3;
+	border: solid 1px #707070;
+	color: white ;
+}
+

@@ -1,0 +1,38 @@
+<div class="upper-footer">
+			<h5>Contact</h5>
+			<ul class="footer-line">
+				<li class="email-block">
+					<h6>Email Us</h6>
+					<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+						<div class="row">
+							<input id="name" class="input" name="name" type="text" value="" size="30" autofocus placeholder="Your name"/><br />
+						</div>
+						<br />
+						<div class="row">
+							<input id="email" class="input" name="email" type="text" value="" size="30" autofocus placeholder="Your email:" /><br />
+						</div>
+						<div class="row"><br />
+							<textarea id="message" class="input" name="message" rows="7" cols="30" autofocus placeholder="Your message:"></textarea><br />
+						</div>
+						<input id="submit_button" type="submit" value="Send email" />
+					</form>
+				</li>
+
+				<li>
+					<div class="chat-block">
+						<h6>Lets Chat</h6>
+						<p>OGSystems HQ<br/>14291 Park Meadow Dr.<br/>Suite 100<br/>Chantilly, VA 20151<br/>T: (703) 870.7552</p>
+					</div>
+				</li>
+				<li>
+					<h6>Get Social</h6>
+					<ul class="footer_social">
+						<li class="bottom_social"><a href="#"><img src="images/twitter_gray.png" alt="twitter icon">Twitter</a></li>
+						<li class="social"><a href="#"><img src="images/facebook_gray.png" alt="facebook icon"> Facebook</a></li>
+						<li class="social"><a href="#"><img src="images/linkedin_gray.png" alt="linkedin icon">LinkedIn</a></li>
+						<li class="social"><a href="#"><img src="images/google_plus_gray.png" alt="google+ icon">Google+</a></li>
+						<li class="social"><a href="#"><img src="images/youtube_gray.png" alt="google+ icon_gray">YouTube</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
